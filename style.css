@@ -1,0 +1,37 @@
+#div1 { 
+	margin-left: 30%;
+	color:blue;
+}
+#div2 {
+	margin-left: 60%;
+	color:red;
+}
+#tabela
+{	margin-top : 5%;
+	
+	margin-left: 40%;
+	
+}
+
+.buttons
+{
+	width:10%;
+	height:10%;
+	background-color:#CCCCCC;
+	font-size:30pt;
+}
+#newgame
+{	height:10%;
+	width:20%;
+	margin-top : 5%;
+	
+	margin-left: 39%;
+	
+}
+#nextplayer
+{	height:10%;
+	width:20%;
+	margin-top:5%;
+	
+	margin-left: 39%;
+}

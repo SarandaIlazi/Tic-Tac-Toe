@@ -1,0 +1,41 @@
+<html>
+	<head>
+	
+		<title>TIC-TAC-TOE</title>
+		<link type ="text/css" href = "style.css" rel="stylesheet"/>
+					
+		
+	</head>
+	
+	
+	<body>
+	<div id="div1" >
+	<span id= "player1">Player 1:</span>
+	<span id= "player1Points">0</span>
+	</div>
+	
+	<div id="div2">
+	<span id ="player2">Player 2:</span>
+	<span id= "player2Points">0</span><br>
+	</div>
+	<br>
+	<button id="nextplayer" type="button" ></button>
+	<div id="tabela">
+	<button type="button" onclick="nextMove(0);" value="1" class="buttons">-</button>
+	<button type="button" onclick="nextMove(1);" value="2" class="buttons">-</button>
+	<button type="button" onclick="nextMove(2);" value="3" class="buttons">-</button><br>
+	<button type="button" onclick="nextMove(3);" value="4" class="buttons">-</button>
+	<button type="button" onclick="nextMove(4);" value="5" class="buttons">-</button>
+	<button type="button" onclick="nextMove(5);" value="6" class="buttons">-</button><br>
+	<button type="button" onclick="nextMove(6);" value="7" class="buttons">-</button>
+	<button type="button" onclick="nextMove(7);" value="8" class="buttons">-</button>
+	<button type="button" onclick="nextMove(8);" value="9" class="buttons">-</button>
+	</div>
+	
+	<button  id = "newgame" type="button" onclick="newgame()">New Game</button>
+	
+	
+	
+	</body>
+	<script src="skripta.js"></script>
+</html>
